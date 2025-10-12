@@ -52,14 +52,6 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Si `requirements.txt` est vide ou absent :
-
-- vérifiez que le fichier se trouve bien dans le dossier `TP-1` ;
-- sinon installez manuellement les paquets nécessaires (par exemple `scikit-learn`, `numpy`, `matplotlib`) :
-
-```powershell
-pip install numpy matplotlib scikit-learn
-```
 
 ## 4) Lancer le script
 
