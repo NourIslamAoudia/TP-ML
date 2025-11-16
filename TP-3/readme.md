@@ -1,3 +1,7 @@
+# AOUDIA NOUR ISLAM - 222231485406 - GRP3
+ 
+---
+
 # Neural Network Intrusion Detection System - NSL-KDD Dataset
 
 ## Project Overview
@@ -176,76 +180,3 @@ dropout_rate: 0.2
 batch_size: 64
 epochs: 15
 ```
-
----
-
-## Installation & Usage
-
-### Requirements
-```bash
-pip install numpy pandas matplotlib scikit-learn tensorflow
-```
-
-### Running the Code
-1. Download the NSL-KDD dataset
-2. Update the `data_url` variable with your local path
-3. Run the Python script
-
-```python
-python intrusion_detection.py
-```
-
----
-
-## Practical Tips / Debugging
-
-### Data Loading Issues
-- If `pd.read_csv` fails due to different separators, add `sep=','` or `sep='\t'`
-- Check labels: sometimes the label column contains `normal.` (with period)  
-  Adapt the condition using `s.startswith('normal')` or `s == 'normal.'`
-
-### Performance Optimization
-- If GPU available, install the GPU version of TensorFlow to accelerate training
-- For class imbalance: use `class_weight` in `model.fit` or metrics based on precision/recall
-
----
-
-## Project Structure
-```
-├── intrusion_detection.py    # Main implementation
-├── README.md                  # This file
-└── KDDTrain+.txt             # Dataset (to be downloaded)
-```
-
----
-
-## Results Visualization
-
-The code generates:
-1. **Training Accuracy Curves** - Compare shallow vs. deep training progress
-2. **Validation Accuracy Curves** - Monitor generalization
-3. **Test Accuracy Bar Chart** - Final performance comparison
-
----
-
-## Future Improvements
-
-1. Implement multi-class classification (detect specific attack types)
-2. Add confusion matrix and classification report
-3. Experiment with different architectures (CNN, LSTM)
-4. Hyperparameter tuning with grid search
-5. Handle class imbalance with SMOTE or class weights
-
----
-
-## License
-MIT License
-
-## References
-- NSL-KDD Dataset: https://github.com/defcom17/NSL_KDD
-- Original KDD Cup 1999: http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
-
----
-
-## Contact
-For questions or improvements, please open an issue or submit a pull request.

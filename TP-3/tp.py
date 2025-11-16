@@ -95,7 +95,7 @@ input_dim = X_train.shape[1]
 # Model 1: Shallow
 m1_params = {
     'n_hidden_layers': 1,
-    'n_neurons': 4,
+    'n_neurons': 4, # nombre
     'learning_rate': 0.05,
     'dropout_rate': 0.0,
     'batch_size': 512,
