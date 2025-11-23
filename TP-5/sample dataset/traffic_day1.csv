@@ -1,0 +1,11 @@
+﻿flow_duration,bytes,packets,protocol,label
+1.2,200,5,6,normal
+3.4,540,12,17,normal
+0.0,120,3,6,normal
+10.5,8000,60,1,attack
+2.2,230,8,17,normal
+5.6,15000,100,6,attack
+1.1,90,2,1,normal
+0.5,60,1,6,normal
+8.0,4000,40,17,attack
+12.3,20000,120,6,attack

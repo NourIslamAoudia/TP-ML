@@ -1,0 +1,9 @@
+﻿src_ip,region,isp,is_internal
+10.0.0.8,EU,Orange,yes
+192.168.1.14,LocalNet,Private,yes
+172.16.4.9,US,Comcast,no
+8.8.8.8,US,Google,no
+192.168.1.10,LocalNet,Private,yes
+172.16.4.10,US,Comcast,no
+10.0.0.9,EU,Orange,yes
+8.8.4.4,US,Google,no
